@@ -16,8 +16,8 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 import { Test, TestingModule } from '@nestjs/testing';
-import { UnitMemberService } from './unit.member.service';
-import { UnitMemberRepository } from '../repositories/unit.member.repository';
+import { UnitMemberService } from 'unit/services/unit.member.service';
+import { UnitMemberRepository } from 'unit/repositories/unit.member.repository';
 import { UserService } from 'user/services/user.service';
 import { UnitMemberInfoDto } from '../dtos/unit.member.info.dto';
 import { INamedUser } from '../../shared/interfaces';
